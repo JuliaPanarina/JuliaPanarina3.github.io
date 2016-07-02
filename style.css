@@ -8,8 +8,7 @@
         .box{
             width: 965px;
             height: 100%;
-            margin-left: 153px;
-            margin-right: 153px;
+            margin: 0 auto;
             background-color: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
             padding-right: 47px;
@@ -31,12 +30,16 @@
         .menu a{
             color: white;
             text-decoration: none;
-            border-right: 1px solid #838383;
             text-align: left;
             display: inline-block;
             padding: 10px 50px;
             font-family: arial;
         }
+		.menu a:hover{
+			background-color: #000;
+			border-right: 1px solid #838383;
+			border-left: 1px solid #838383;
+	}
         .header{
             padding-bottom: 41px;
             padding-top: 50px;
@@ -44,7 +47,7 @@
         .container{
 
         }
-        .clearfix: after{
+        .clearfix:after{
             content: '';
             clear: both;
             display: block;
@@ -52,7 +55,7 @@
         .sidebar{
             display: inline-block;
             text-decoration: none;
-            color: #ccc;
+            color: #000;
             font-family: arial;
             float: left;
             width: 25%;
@@ -61,6 +64,14 @@
             border-right: 1px solid #ccc;
             border-left: 1px solid #ccc;
         }
+		.sidebar a:hover{
+			color: #000;
+			background-color: #f9f9f9;
+			margin-left: 10px;
+		}
+		.sidebar li:hover{
+			background-color: #f9f9f9;
+		}
         .content{
             float: right;
             width: 70%;
@@ -69,21 +80,31 @@
         .text{
             margin-top: 30px;
             margin-bottom: 40px;
+            padding-right: 15px;
             padding-left: 25px;
             font-family: arial;
             font-size: 14px;
         }
+        .footer{
+        	width: 100%;
+            height: 40px;
+            float: left;
+            list-style: none;
+            background-color: #e1e1e1;
+            margin-top: 40px;
+            margin-bottom: 60px; 	
+        }
         .footer li{
-            display: inline-block;
-            background: #DEDEDE;
-            width: 100%;
+	        display: inline-block;
             border-bottom: none;
             padding-right: none;
         }
         .footer a{
-           color: #000;
+        	color: #000;
         }
-   
+	  	.footer a:hover{
+			text-decoration: underline;
+		}
     li{
         list-style: none;
         border-bottom: 1px solid #ccc;
@@ -93,6 +114,6 @@
         display: inline-block;
         padding: 10px 50px;
         text-decoration: none;
-        color: #000;
+        color: #656363;
         font-family: arial;
     }
