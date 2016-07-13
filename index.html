@@ -6,42 +6,37 @@
 	<title>Cadastre-se</title>
 </head>
 <body>
-	<div class="container">
-		<ul class="menu">
-			<li><a href="#">Meu YouBike</a></li>
-    		<li><a href="#">Vender</a></li>
-    		<li><a href="#">Forum</a></li>
-    		<li><a href="#">Contato</a></li>
-    		<li><a href="#">Ajuda</a></li>
-   		</ul>
-   		<ul class="menu2">
-   			<li><a href="#">Minhas Ofertas</a></li>
-    		<li><a href="#">Ola! Entrar ou Cadastre-se</a></li>
-    	</ul>
+	<ul class="menu">
+		<li><a href="#">Meu YouBike</a></li>
+    	<li><a href="#">Vender</a></li>
+    	<li><a href="#">Forum</a></li>
+    	<li><a href="#">Contato</a></li>
+    	<li><a href="#">Ajuda</a></li>
+   	</ul>
+   	<ul class="menu2">
+   		<li><a href="#">Minhas Ofertas</a></li>
+    	<li><a href="#">Ola! Entrar ou Cadastre-se</a></li>
+    </ul>
     	<div class="center-block">
-    		<p class="line">Cadastre-se</p>
-    		<ul class="button">
+    		<b><p class="line">Cadastre-se</p></b>
+    		<ul class="log">
    				<li><a href="#"><h1>f</h1></a></li>
    				<li><a href="#"><b>Log In</b> with <b>Facebook</b></a></li>
    				<li><a href="#"><h4> > </h4></a></li>
     		</ul>
     		<h3><span>OU</span></h3>
-    		<ul  class="forma">
-    			<li><a href="#">First name</a></li>
-   				<li><a href="#">Last name</a></li>
-   				<li><a href="#">Email Address</a></li>
-   				<li><a href="#">Choose Password</a></li>
-   				<li><a href="#">Password Confirm</a></li>
-       		</ul>
-       		<form action="input1.php">
-      			<p><input type="checkbox" name="option1" value="a1" checked>  Send me Youbike updates and tips</p>
-  			</form>
-  			<div class="button2">
-  				<p><a href="#">Create my Account</a></p>
-   			</div>
-   			<p class="end">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
-       	</div>      
-	</div>
-	
+    	
+    	<form>
+			<input type="text" name="f-name" placeholder="First Name" reqired>
+			<input type="text" name="l-name" placeholder="Last name" required>
+			<input type="email" name="e-mail" placeholder="Email Address" required>
+			<input type="password" name="password" placeholder="Choose Password" required>
+			<input type="password" name="confirm" placeholder="Password Confirm" required>
+			<input type="checkbox" class="checkbox" id="checkbox" name="option"><label for="checkbox">Send me Youbike updates and tips</label>  
+			<button type="submit">Create my Account</button>
+		</form>
+    		<p class="end">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p> 		
+   			
+    </div>  		
 </body>
 </html>
