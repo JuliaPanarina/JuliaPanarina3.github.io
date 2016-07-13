@@ -17,18 +17,25 @@ body{
 	background-position: center;
 	margin: 0 auto;
 }
+	.menu:after{
+		content: url(img/flag.png);
+		position: absolute;
+		right: 425px;
+		padding-left: 10px;
+	}
+	
 	.menu{
-        width: 100%;
+        width: 65%;
         height: 36px;
         background: #074c89;
-        text-align: center;
+        text-align: right;
         font-size: 14px;
         font-family: "Helvetica Neue";
     }
+    
         .menu li{
             list-style: none;
-            border-bottom: none;
-            display: inline;
+            display: inline-block;
         }
         .menu a{
             color: #60b5ed;
@@ -44,35 +51,40 @@ body{
 			color: #fff;
 			background-color: #4eabda;	
 		}
+			
 	.menu2{
-        width: 100%;
+		width: 35%;
         height: 36px;
         margin-top: -36px;
+        margin-left: 65%;
+        background: #074c89;
         text-align: right;
         font-size: 14px;
-        font-family: "Helvetica Neue";			
+        font-family: "Helvetica Neue";
+
     }
+
         .menu2 li{
         	list-style: none;
             display: inline-block;
-            border-right: 1px solid #60b5ed;
-	    	border-left: 1px solid #60b5ed;
-	    }
-        .menu2 a{
-            color: #60b5ed;
+            border-left: 1px solid #60b5ed;	       
+	    }		          
+	    .menu2 a{
+            color: #fff;
             text-decoration: none;
-            text-align: left;
             display: inline-block;
-            padding: 9.5px 15px;
+            padding: 9.5px 35px;
             font-family: "Helvetica Neue";
         }
+
 		.menu2 a:hover{
 			color: #fff;
 			background-color: #4eabda;
 			display: inline-block;
 			border-bottom: 1px solid #4d9ed8;
 	    	background: linear-gradient(to top, #2e7ac4, #50afdc);
-		}			
+		}
+			
 	.center-block{
 		background: #333b30;
 		background: rgba(0, 0, 0, 0.5);
@@ -103,7 +115,7 @@ body{
     	.log li{
     		list-style-type: none;
     		margin-top: -25px;
-    		text-align: center;		
+    		text-align: center;	
     	}
     	.log a{
     		text-decoration: none;
