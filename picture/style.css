@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+	width: 1000px;
+	height: 650px;
+	background: #e1e1e1;
+	margin: 0 auto;
+}
+	td{
+		border: 10px solid #000;
+	}
+	table{
+		transform: translate(0px,35px);
+		margin: 0 auto;
+		border-collapse: collapse;
+	}
+	.box1{
+		background: #fff;
+		width: 116px;
+		height: 48px;
+	}
+	.box2{
+		background: #fff;
+		width: 200px;
+		height: 48px;
+	}
+	.box3{
+		background: #fff262;
+		width: 165px;
+		height: 48px;
+	}
+	.box4{
+		background: #fff;
+		width: 48px;
+		height: 130px;
+	}
+	.box5{
+		background: #ff583b;
+		width: 270px;
+		height: 270px;
+	}
+	.box6{
+		background: #fff626;
+		width: 165px;
+		height: 130px;
+	}
+	.box7{
+		background: #fff;
+		width: 48px;
+		height: 200px;
+	}
+	.box8{
+		background: #fff;
+		width: 78px;
+		height: 130px;
+	}
+	.box9{
+		background: #fff;
+		width: 78px;
+		height: 130px;
+	}
+	.box10{
+		background: #141515;
+		width: 130px;
+		height: 130px;
+	}
+	.box11{
+		background: #fff;
+		width: 130px;
+		height: 60px;
+	}
+	.box12{
+		background: #fff;
+		width: 162px;
+		height: 60px;
+	}
+	.box13{
+		background: #fff262;
+		width: 48px;
+		height: 135px;
+	}
+	.box14{
+		background: #fff;
+		width: 130px;
+		height: 60px;
+	}
+	.box15{
+		background: #0a4583;
+		width: 162px;
+		height: 95px;
+	}
+	.box16{
+		background: #fff;
+		width: 130px;
+		height: 70px;
+	}
+	.box17{
+		background: #141515;
+		width: 130px;
+		height: 30px;
+	}
+	.box18{
+		background: #fff;
+		width: 300px;
+		height: 30px;
+	}
+
+	
